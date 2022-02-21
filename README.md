@@ -10,7 +10,7 @@ I want to be better with software so that why I want to become a developer. </p>
 
 
 
-### Code 102 - Intro to Software Development
+# Code 102 - Intro to Software Development
 
 
 
