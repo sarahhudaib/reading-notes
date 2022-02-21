@@ -8,7 +8,11 @@ I want to be better with software so that why I want to become a developer.
 This website contains the reading notes from the beginning of the course till the end. </p>
 
 
+
+
 ### Code 102 - Intro to Software Development
+
+
 
 ### Table of Contents:
 
