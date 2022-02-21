@@ -18,7 +18,7 @@ I want to be better with software so that why I want to become a developer. </p>
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
-| Lab01b  | Prep: Create a Reading Notes Repo  |   |
+| Lab01b  | Prep: Create a Reading Notes Repo  |  [Link](https://sarahhudaib.github.io/reading-notes/) |
 |  Read01 |   |   |
 |  Read02 |   |   |
 |  Read03 |   |   |
