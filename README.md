@@ -9,7 +9,8 @@ This website contains the reading notes from the beginning of the course till th
 
 
 ### Code 102 - Intro to Software Development
-## Table of Contents:
+
+### Table of Contents:
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
