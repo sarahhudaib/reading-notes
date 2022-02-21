@@ -18,7 +18,7 @@ This website contains the reading notes from the beginning of the course till th
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
-| Lab01b  |   |   |
+| Lab01b  | Prep: Create a Reading Notes Repo  |   |
 |  Read01 |   |   |
 |  Read02 |   |   |
 |  Read03 |   |   |
