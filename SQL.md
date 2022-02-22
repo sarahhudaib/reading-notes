@@ -15,6 +15,8 @@ Represents a collection of related `two-dimensional` tables. Each of the tables 
 - What types of vehicles are on the road have less than four wheels?
 - How many models of cars does Tesla produce?
 
+----
+
 # SQL Lesson 1: SELECT queries 101
 
 > A **query** in itself is just a statement which declares what data we are looking for, where to find it in the database, and optionally, how to transform it before it is returned
