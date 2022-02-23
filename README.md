@@ -18,7 +18,9 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read01 | SQL Practice  | [Link](/SQL.md)  |
 |  Read02 | Prep Your Mindset  | [Link](/mindset.md)  |
 |  Read03 | Practice in the Terminal  | [Link](/terminal.md)  |
-|  Read04 |   |   |
+|  Read04 | Python Core Certificate  | [Link](/Python-Sololearn.md)  |
+|  Read05 |   |   |
+|  Read06 |   |   |
 
 ### Code 201 - Foundations of Software Development
 
