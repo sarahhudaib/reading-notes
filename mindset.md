@@ -30,6 +30,10 @@ from now on ill start focusing on the `FOUR WAYS TO ACT` & `BIAS AND THE BRAIN` 
 
 # Measuring Emotional Intelligence
 
+> Emotional Intelligence is learnable and developmental.
+
+           since I score below 18 in this section I need to focus and learn more about it I always thought that emotional intelligence is something that you cant learn because you got it from your environment and the way you grew up but apparently I'm wrong about it and I still have the chance to learn & develop myself.
+
 ----
 
 # The power of passion and perseverance
