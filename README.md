@@ -17,7 +17,7 @@ I want to be better with software so that why I want to become a developer. </p>
 | Lab01b  | Create a Reading Notes Repo  |  [Link](https://sarahhudaib.github.io/reading-notes/) |
 |  Read01 | SQL Practice  | [Link](/SQL.md)  |
 |  Read02 | Prep Your Mindset  | [Link](/mindset.md)  |
-|  Read03 |   |   |
+|  Read03 | Practice in the Terminal  | [Link](/terminal.md)  |
 |  Read04 |   |   |
 
 ### Code 201 - Foundations of Software Development
