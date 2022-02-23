@@ -22,6 +22,8 @@ the idea that we can grow our brain's capacity to learn and to solve problems. I
 # Assessing Bias
 ### My Result
 ![alt text](assets/04.png "Assessing Bias")
+
+
 from now on ill start focusing on the `FOUR WAYS TO ACT` & `BIAS AND THE BRAIN` as they say in the result i have high self awareness, curiosity, and courage. 
 
 > But this is not a topic i ever master. i should continue my journey in this area by examining where i still have room for improvement based on 1 or 2 of the 8 areas of unconscious bias where i scored the lowest

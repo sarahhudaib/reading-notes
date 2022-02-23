@@ -57,8 +57,7 @@
 |:-:|:-:|:-:|
 | 1  | file [path]  | obtain information about what type of file a file or directory is. |
 | 2  | ls -a  | List the contents of a directory, including hidden files.  |
-| 3  |   |  |
-| 4  |   |  |
+
 
 >        path is a means to get to a particular location in the system and that location is a file.
 
@@ -109,8 +108,7 @@ The [manual pages](https://ryanstutorials.net/linuxtutorial/manual.php) are a se
 | 7  | mkdir -p | which tells mkdir to make parent directories as needed  |
 | 8  | mkdir -pv | which makes mkdir tell us what it is doing  |
 | 9  | cp -r | which stands for recursive, we may copy directories. Recursive means that we want to look at a directory and all files and directories within it, and for subdirectories, go into them and do the same thing and keep doing this.  |
-| 10  |  |   |
-| 11  |  |   |
+
 
 ### Removing a Directory
 > Two things to note. 
