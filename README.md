@@ -22,20 +22,9 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read05 |   |   |
 |  Read06 |   |   |
 
-
-### Code 201 - Foundations of Software Development
-
-| The Code  |  The Title | The link  |
-|:-:|:-:|:-:|
-| Lab01b  |   |  [Link]() |
-|  Read01 |   |   |
-|  Read02 |   |   |
-|  Read03 |   |   |
-|  Read04 |   |   |
-
-
-
-### Code 301 - Intermediate Software Development
+---
+# Code 201 - Foundations of Software Development
+### Table of Contents:
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
@@ -45,7 +34,22 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read03 |   |   |
 |  Read04 |   |   |
 
-### Code 401 - Advanced Software Development
+
+----
+# Code 301 - Intermediate Software Development
+### Table of Contents:
+
+| The Code  |  The Title | The link  |
+|:-:|:-:|:-:|
+| Lab01b  |   |  [Link]() |
+|  Read01 |   |   |
+|  Read02 |   |   |
+|  Read03 |   |   |
+|  Read04 |   |   |
+
+---
+# Code 401 - Advanced Software Development
+### Table of Contents:
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
