@@ -15,15 +15,15 @@ I want to be better with software so that why I want to become a developer. </p>
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
 | Lab01b  | Create a Reading Notes Repo  |  [Link](https://sarahhudaib.github.io/reading-notes/) |
-|  Read01 | SQL Practice  | [Link](./class01/SQL.md)  |
-|  Read02 | Prep Your Mindset  | [Link](./class01/mindset.md)  |
-|  Read03 | Practice in the Terminal  | [Link](./class01/terminal.md)  |
-|  Read04 | Python Core Certificate  | [Link](./class01/Python-Sololearn.md)  |
+|  Read01 | SQL Practice  | [Link](/SQL.md)  |
+|  Read02 | Prep Your Mindset  | [Link](/mindset.md)  |
+|  Read03 | Practice in the Terminal  | [Link](/terminal.md)  |
+|  Read04 | Python Core Certificate  | [Link](/Python-Sololearn.md)  |
 |  Read05 |   |   |
 |  Read06 |   |   |
 ---
 
-# Code 201 - Foundations of Software Development
+### Code 201 - Foundations of Software Development
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
@@ -34,7 +34,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read04 |   |   |
 ---
 
-# Code 301 - Intermediate Software Development
+### Code 301 - Intermediate Software Development
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
@@ -44,8 +44,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read03 |   |   |
 |  Read04 |   |   |
 ---
-
-# Code 401 - Advanced Software Development
+### Code 401 - Advanced Software Development
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
