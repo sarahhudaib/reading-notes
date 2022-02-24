@@ -22,7 +22,6 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read05 |   |   |
 |  Read06 |   |   |
 
----
 
 ### Code 201 - Foundations of Software Development
 
@@ -34,7 +33,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read03 |   |   |
 |  Read04 |   |   |
 
----
+
 
 ### Code 301 - Intermediate Software Development
 
@@ -46,7 +45,6 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read03 |   |   |
 |  Read04 |   |   |
 
----
 ### Code 401 - Advanced Software Development
 
 | The Code  |  The Title | The link  |
