@@ -1,7 +1,7 @@
 # Linux Tutorial
 ## Linux Tutorial - 1. The Command Line
 
-![alt text](assets/05.png "05")
+![alt text](../assets/05.png "05")
 
 > The command line is an interesting beast
 
