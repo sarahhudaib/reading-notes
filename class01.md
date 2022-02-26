@@ -62,6 +62,12 @@ and an important practice for software engineers to understand algorithms more d
 # Exercise02: Big-O Calculation
 ![alt text](./assets/14.png "14")
 
+---
+# In interviews, we don’t calculate things like that, we have 4 rules to know the big O notation like a ninja:
+- 	Worst case
+- 	Remove constant
+- 	Different terms for inputs
+- 	Drop non-dominate
 
 
 
