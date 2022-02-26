@@ -22,8 +22,8 @@ and take it forward into your future as a full-stack software developer capable 
 and an important practice for software engineers to understand algorithms more deeply.
 
 ## Good Code: 
-1-  Readability 
-2-  Scalable (Big O)
+- Readability 
+- Scalable (Big O)
 
 
 
