@@ -40,5 +40,20 @@ and an important practice for software engineers to understand algorithms more d
 # Big-O Cheat Sheet
 ![alt text](./assets/08.png "08")
 ![alt text](./assets/07.png "07")
+---
+## O(n): the most common big=O notation
+### As the number of the elements increases the # of operations will increase.
+![alt text](./assets/10.png "10")
+
+## O(n): Constant Time
+on big-o complexity chart, its performance consider as excellent 
+![alt text](./assets/11.png "11")
+
+[For more interesting details:](https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations)
+
+
+
+
+
 
 
