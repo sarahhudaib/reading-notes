@@ -46,7 +46,8 @@ and an important practice for software engineers to understand algorithms more d
 ![alt text](./assets/10.png "10")
 
 ## O(n): Constant Time
-on big-o complexity chart, its performance consider as excellent 
+### on big-o complexity chart, its performance consider as excellent 
+
 ![alt text](./assets/11.png "11")
 
 [For more interesting details:](https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations)
