@@ -14,6 +14,16 @@ It’s not easy, nor is it common. This is why such skilled people are highly-va
 You are building your value. You are experiencing the pain of growth. **Live it, love it** , 
 and take it forward into your future as a full-stack software developer capable of meeting all challenges with a clear head and strong heart.
 
-
 ----
 
+# A beginner's guide to Big O Notation:
+
+> The Big O notation is an essential tool for computer scientists to analyze the complexity and cost of an algorithm, 
+and an important practice for software engineers to understand algorithms more deeply.
+
+
+
+
+
+
+[manual pages](https://ryanstutorials.net/linuxtutorial/manual.php)
