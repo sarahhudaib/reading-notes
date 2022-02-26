@@ -121,4 +121,4 @@ The [manual pages](https://ryanstutorials.net/linuxtutorial/manual.php) are a se
 
 This cheat sheet is intended to be a quick reminder for the main concepts involved in using the command line and assumes you already understand their usage. If you are new to the Linux command line we strongly suggest you work through the Linux tutorial from the beginning. 
 
-# LINK TO THE [CHEAT SHEET](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) PAGE
+# LINK TO THE [CHEAT SHEET](https://ryanstutorials.net/linuxtutorial/cheatsheet.php) PAGE 
