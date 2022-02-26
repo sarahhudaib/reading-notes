@@ -21,6 +21,9 @@ and take it forward into your future as a full-stack software developer capable 
 > The Big O notation is an essential tool for computer scientists to analyze the complexity and cost of an algorithm, 
 and an important practice for software engineers to understand algorithms more deeply.
 
+## Good Code: 
+1. Readability 
+2. Scalable (Big O)
 
 
 
