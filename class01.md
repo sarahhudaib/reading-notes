@@ -50,8 +50,17 @@ and an important practice for software engineers to understand algorithms more d
 
 ![alt text](./assets/11.png "11")
 
-[For more interesting details:](https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations)
+[For more interesting details about:](https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations) What is the difference between big oh, big omega and big theta notations?
 
+
+---
+
+# Exercise01: Big-O Calculation
+![alt text](./assets/12.png "12")
+![alt text](./assets/13.png "13")
+
+# Exercise02: Big-O Calculation
+![alt text](./assets/14.png "14")
 
 
 
