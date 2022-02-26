@@ -19,7 +19,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read02 | Prep Your Mindset  | [Link](/mindset.md)  |
 |  Read03 | Practice in the Terminal  | [Link](/terminal.md)  |
 |  Read04 | Python Core Certificate  | [Link](/Python-Sololearn.md)  |
-|  Read05 |   |   |
+|  Class01 | Beginners Guide to Big O  | [Link](/class01.md)  |
 |  Read06 |   |   |
 
 ---
