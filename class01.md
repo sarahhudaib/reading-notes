@@ -16,9 +16,9 @@ and take it forward into your future as a full-stack software developer capable 
 
 ----
 
-# A beginner's guide to Big O Notation:
+# A beginner's guide to Big-O Notation:
 
-> The Big O notation is an essential tool for computer scientists to analyze the complexity and cost of an algorithm, 
+> The Big-O notation is an essential tool for computer scientists to analyze the complexity and cost of an algorithm, 
 and an important practice for software engineers to understand algorithms more deeply.
 
 ## Good Code: 
@@ -28,13 +28,16 @@ and an important practice for software engineers to understand algorithms more d
 **Every computer will take a different time to run this code there are a lot of factors to consider like CPU, what I’m running on my pc, what other programming languages are using etc.**
 
 ### So how to know whose have better codes?
-> Big O notation  talks about how much my code takes time to run
+> Big-O notation  talks about how much my code takes time to run
+---
 
+# Big-O Complexity Chart
 ![alt text](./assets/09.png "09")
 
 ## **When growing bigger & bigger with our input how much does the func or algorithm slow down**
 <!-- [manual pages](file:///C:/Users/sarah/AppData/Local/Temp/MicrosoftEdgeDownloads/9a58f527-481b-4002-a738-dab316ba767e/BigO-cheat-sheet+(1).pdf) -->
-
+---
+# Big-O Cheat Sheet
 ![alt text](./assets/08.png "08")
 ![alt text](./assets/07.png "07")
 
