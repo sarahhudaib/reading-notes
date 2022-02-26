@@ -32,4 +32,5 @@ and an important practice for software engineers to understand algorithms more d
 
 ![alt text](./assets/09.png "09")
 
-[manual pages](https://ryanstutorials.net/linuxtutorial/manual.php)
+## **When growing bigger & bigger with our input how much does the func or algorithm slow down**
+[manual pages](file:///C:/Users/sarah/AppData/Local/Temp/MicrosoftEdgeDownloads/9a58f527-481b-4002-a738-dab316ba767e/BigO-cheat-sheet+(1).pdf)
