@@ -30,6 +30,6 @@ and an important practice for software engineers to understand algorithms more d
 ### So how to know whose have better codes?
 > Big O notation  talks about how much my code takes time to run
 
-
+![alt text](./assets/09.png "09")
 
 [manual pages](https://ryanstutorials.net/linuxtutorial/manual.php)
