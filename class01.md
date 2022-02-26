@@ -25,7 +25,10 @@ and an important practice for software engineers to understand algorithms more d
 - Readability 
 - Scalable (Big O)
 
+**Every computer will take a different time to run this code there are a lot of factors to consider like CPU, what I’m running on my pc, what other programming languages are using etc.**
 
+### So how to know whose have better codes?
+> Big O notation  talks about how much my code takes time to run
 
 
 
