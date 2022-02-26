@@ -71,6 +71,10 @@ and an important practice for software engineers to understand algorithms more d
 
 to be continued ...
 ---- 
+# Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015
+The behavior of names and values in Python can be confusing. Like many parts of Python, it has an underlying simplicity that can be hard to discern, especially if you are used to other programming languages. Here I'll explain how it all works, and present some facts and myths along the way.  Call-by-reference? Call-by-value? [The answer will be clear!](https://www.youtube.com/watch?v=_AEJHKGk9ns)
 
+---
+# [Python 3 Module of the Week](https://pymotw.com/3/index.html)
 
 
