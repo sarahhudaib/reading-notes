@@ -9,8 +9,12 @@ I want to be better with software so that why I want to become a developer. </p>
 
 ---
 
-# Code 102 - Intro to Software Development
-### Table of Contents:
+##### Code 102 - Intro to Software Development
+##### Code 201 - Foundations of Software Development
+##### Code 301 - Intermediate Software Development
+----
+# Code 401 - Advanced Software Development
+### Table of Contents for the Preparation :
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
@@ -19,42 +23,14 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Read02 | Prep Your Mindset  | [Link](/mindset.md)  |
 |  Read03 | Practice in the Terminal  | [Link](/terminal.md)  |
 |  Read04 | Python Core Certificate  | [Link](/Python-Sololearn.md)  |
+
+---
+
+### Table of Contents for Class tasks, labs, reading, and journals:
+
+| The Code  |  The Title | The link  |
+|:-:|:-:|:-:|
 |  Class01 | Beginners Guide to Big-O  | [Link](/class01.md)  |
 |  Read06 |   |   |
 
 ---
-# Code 201 - Foundations of Software Development
-### Table of Contents:
-
-| The Code  |  The Title | The link  |
-|:-:|:-:|:-:|
-| Lab01b  |   |  [Link]() |
-|  Read01 |   |   |
-|  Read02 |   |   |
-|  Read03 |   |   |
-|  Read04 |   |   |
-
-
-----
-# Code 301 - Intermediate Software Development
-### Table of Contents:
-
-| The Code  |  The Title | The link  |
-|:-:|:-:|:-:|
-| Lab01b  |   |  [Link]() |
-|  Read01 |   |   |
-|  Read02 |   |   |
-|  Read03 |   |   |
-|  Read04 |   |   |
-
----
-# Code 401 - Advanced Software Development
-### Table of Contents:
-
-| The Code  |  The Title | The link  |
-|:-:|:-:|:-:|
-| Lab01b  |   |  [Link]() |
-|  Read01 |   |   |
-|  Read02 |   |   |
-|  Read03 |   |   |
-|  Read04 |   |   |
