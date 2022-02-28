@@ -31,6 +31,6 @@ I want to be better with software so that why I want to become a developer. </p>
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
 |  Class01 | Beginners Guide to Big-O  | [Link](/class01.md)  |
-|  Read06 |   |   |
+|  Class02 | Testing and Modules  | [Link](/Class02.md)  |
 
 ---
