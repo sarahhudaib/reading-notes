@@ -32,5 +32,6 @@ I want to be better with software so that why I want to become a developer. </p>
 |:-:|:-:|:-:|
 |  Class01 | Beginners Guide to Big-O  | [Link](/class01.md)  |
 |  Class02 | Testing and Modules  | [Link](/Class02.md)  |
+|  Class03 | FileIO & Exceptions | [Link](/Class03.md)  |
 
 ---
