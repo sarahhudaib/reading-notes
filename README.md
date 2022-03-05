@@ -19,10 +19,10 @@ I want to be better with software so that why I want to become a developer. </p>
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
 | Lab01b  | Create a Reading Notes Repo  |  [Link](https://sarahhudaib.github.io/reading-notes/) |
-|  Read01 | SQL Practice  | [Link](/SQL.md)  |
-|  Read02 | Prep Your Mindset  | [Link](/mindset.md)  |
-|  Read03 | Practice in the Terminal  | [Link](/terminal.md)  |
-|  Read04 | Python Core Certificate  | [Link](/Python-Sololearn.md)  |
+|  Read01 | SQL Practice  | [Link](./Classes/SQL.md)  |
+|  Read02 | Prep Your Mindset  | [Link](./Classes/mindset.md)  |
+|  Read03 | Practice in the Terminal  | [Link](./Classes/terminal.md)  |
+|  Read04 | Python Core Certificate  | [Link](./Classes/Python-Sololearn.md)  |
 
 ---
 
@@ -30,8 +30,9 @@ I want to be better with software so that why I want to become a developer. </p>
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
-|  Class01 | Beginners Guide to Big-O  | [Link](/class01.md)  |
-|  Class02 | Testing and Modules  | [Link](/Class02.md)  |
-|  Class03 | FileIO & Exceptions | [Link](/Class03.md)  |
+|  Class01 | Beginners Guide to Big-O  | [Link](./Classes/class01.md)  |
+|  Class02 | Testing and Modules  | [Link](./Classes/Class02.md)  |
+|  Class03 | FileIO & Exceptions | [Link](./Classes/Class03.md)  |
+|  Class04 | Classes, Obj, Testing, and recursive | [Link](./Classes/Class03.md)  |
 
 ---
