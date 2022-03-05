@@ -4,7 +4,7 @@
 >> WHY? because everything type is a class!
 
 
-![alt text](../assets/15.png) "Everything in python is an Obj!") 
+![alt text](../assets/15.png "Everything in python is an Obj!") 
 
 So what we mean by class & obj?
 
