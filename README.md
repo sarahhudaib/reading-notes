@@ -36,13 +36,14 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class04 | Classes, Obj, Testing, and recursive | [Link](./Classes/Class04.md)  |
 |  Class05 | Game of Greed 1 | [Link](./Classes/Class06.md)  |
 |  Class06 | Game of Greed 2 | [Link](./Classes/Class07.md)  |
+|  Class08 | Game of Greed 3 | [Link](./Classes/Class08.md)  |
 
 ---
 ### Table of Contents for algorithm and data structure :
 
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
-|  Class01 | Linked Lists | [Link](./Classes/Class05.md)  |
+|  Class07 | Linked Lists | [Link](./Classes/Class05.md)  |
 
 
 ---
