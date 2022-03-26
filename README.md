@@ -38,6 +38,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class06 | Game of Greed 2 | [Link](./Classes/Class07.md)  |
 |  Class08 | Game of Greed 3 | [Link](./Classes/Class08.md)  |
 |  Class09 | Game of Greed 4 | [Link](./Classes/Class09.md)  |
+|  Class10 | JupyterLab | [Link](./Classes/Class10.md)  |
 
 ---
 ### Table of Contents for algorithm and data structure :
