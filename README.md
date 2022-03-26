@@ -45,6 +45,7 @@ I want to be better with software so that why I want to become a developer. </p>
 | The Code  |  The Title | The link  |
 |:-:|:-:|:-:|
 |  Class07 | Linked Lists | [Link](./Classes/Class05.md)  |
+|  Class07 | Stacks and Queues | [Link](./Classes/Class10.md)  |
 
 
 ---
