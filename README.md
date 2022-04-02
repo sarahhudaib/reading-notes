@@ -40,6 +40,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class09 | Game of Greed 4 | [Link](./Classes/Class09.md)  |
 |  Class11 | JupyterLab | [Link](./Classes/Class11.md)  |
 |  Class12 | Pandas | [Link](./Classes/Class12.md)  |
+|  Class13 | Linear Regressions | [Link](./Classes/Class13.md)  |
 
 ---
 ### Table of Contents for algorithm and data structure :
