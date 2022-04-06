@@ -42,3 +42,4 @@ tips = sns.load_dataset("tips")
 Two main functions in seaborn are used to visualize a linear relationship as determined through regression. These functions, `regplot()` and `lmplot()` are closely related, and share much of their core functionality. 
 
 >> It is important to understand the ways they differ, however, so that you can quickly choose the correct tool for particular job.
+
