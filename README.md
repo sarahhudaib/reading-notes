@@ -42,6 +42,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class12 | Pandas | [Link](./Classes/Class12.md)  |
 |  Class13 | Linear Regressions | [Link](./Classes/Class13.md)  |
 |  Class14 | Data Visualization | [Link](./Classes/Class14.md)  |
+|  Class16 | Serverless Functions | [Link](./Classes/Class16.md)  |
 
 ---
 ### Table of Contents for algorithm and data structure :
