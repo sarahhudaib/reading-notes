@@ -21,7 +21,7 @@ Serverless is a cloud computing execution model that
 
 - Serverless application development platforms provide near-total visibility into system and user times, and can aggregate that information systematically.
 
-### Cons
+### `Cons`
 
 - Stable or predictable workloads
 - Cold starts
