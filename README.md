@@ -44,6 +44,8 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class14 | Data Visualization | [Link](./Classes/Class14.md)  |
 |  Class16 | Serverless Functions | [Link](./Classes/Class16.md)  |
 |  Class17 | Web Scraping | [Link](./Classes/Class17.md)  |
+|  Class18 | Intro to Django | [Link](./Classes/Class18.md)  |
+|  Class19 | Django Models | [Link](./Classes/Class19.md)  |
 
 ---
 ### Table of Contents for algorithm and data structure :

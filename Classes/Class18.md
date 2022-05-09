@@ -1,4 +1,5 @@
-# Django
+# Introduction to Django
+
 `Django` is a Web framework written in Python. A Web framework is software that supports the development of dynamic Web sites, applications, and services. It provides tools and functionalities that solve many common problems associated with Web development, such as security features, database access, sessions, template processing, URL routing, internationalization, localization, and much more.
 Library: we built things from a specific library, ill choose the things.
 
@@ -18,7 +19,9 @@ It’s good to know who is using Django out there to have an idea of what you ca
 ## Starting a New Project:
 
 -	To start a new Django project, run the command below:
+```
 django-admin startproject myproject
+```
 -	Now my project directory looks like this:
 
  
