@@ -47,6 +47,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class18 | Intro to Django | [Link](./Classes/Class18.md)  |
 |  Class19 | Django Models | [Link](./Classes/Class19.md)  |
 |  Class20 | Django CRUD & Forms | [Link](./Classes/Calss20.md)  | 
+|  Class21 | Django Custom User Model | [Link](./Classes/Class21.md)  | 
 
 ---
 ### Table of Contents for algorithm and data structure :
