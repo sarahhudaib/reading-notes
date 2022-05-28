@@ -50,6 +50,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class21 | Django Custom User Model | [Link](./Classes/Class21.md)  | 
 |  Class23 | Django REST Framework & Docker | [Link](./Classes/Class23.md)  | 
 |  Class24 | Django Permissions & Postgresql | [Link](./Classes/Class24.md)  | 
+|  Class25 | JWT authentication | [Link](./Classes/Class25.md)  | 
 
 ---
 ### Table of Contents for algorithm and data structure :
