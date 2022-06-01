@@ -62,5 +62,6 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class10| Stacks and Queues | [Link](./Classes/Class10.md)  |
 |  Class15 | Trees | [Link](./Classes/Class15.md)  |
 |  Class22 | Hash Table | [Link](./Classes/Class22.md)  |
+|  Class27 | Graphs | [Link](./Classes/Class27.md)  |
 
 ---
