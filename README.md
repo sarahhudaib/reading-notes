@@ -51,6 +51,7 @@ I want to be better with software so that why I want to become a developer. </p>
 |  Class23 | Django REST Framework & Docker | [Link](./Classes/Class23.md)  | 
 |  Class24 | Django Permissions & Postgresql | [Link](./Classes/Class24.md)  | 
 |  Class25 | JWT authentication | [Link](./Classes/Class25.md)  | 
+|  Class26 | API Deployment | [Link](./Classes/Class26.md)  | 
 
 ---
 ### Table of Contents for algorithm and data structure :
