@@ -34,15 +34,17 @@ Table of Contents for the Published Articles:
 </h3>
 
 
+<div align="center">
 
-<!-- | The Code |                   Article Title                    |                       The link                       |
+| The Code |                   Article Title                    |                       The link                       |
 | :------: | :------------------------------------------------: | :--------------------------------------------------: |
 | Artic01  |               All Articles on GitHub               | [Link](https://sarahhudaib.github.io/reading-notes/) |
 | Artic02  |              All Articles on Hashnode              |   [Link](https://sarahthedeveloper.hashnode.dev/)    |
-| Artic03  | Why Virtualenv is Important for Django Development |      [Link](./Published_Articles/virtualenv.md)      | -->
+| Artic03  | Why Virtualenv is Important for Django Development |      [Link](./Published_Articles/virtualenv.md)      | 
 
+</div>
 
-<html>
+<!-- <html>
   <head>
     <style>
       table {
@@ -84,4 +86,4 @@ Table of Contents for the Published Articles:
       </tr>
     </table>
   </body>
-</html>
+</html> -->
