@@ -1,10 +1,10 @@
 <h2 align="center" style="font-weight: bold;"><samp>
 2023 Reading List: Notes and Recommendations from me :D
-</h2>
 
-<h3 align="center"><samp>
+
+<h3 align="center">
 Introduction
-</h3>
+
 
 <p align="center">
 Hello everyone! My name is Sarah and I'm a backend developer. I've recently started writing articles on GitHub about my journey in backend development, with a focus on Python and the Django framework. 😄
@@ -29,18 +29,18 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 ---
 
 
-<h3 align="center" style="font-weight: bold;"><samp>
+<h3 align="center" style="font-weight: bold;">
 Table of Contents for the Published Articles:
-</h3>
+
 
 
 <div align="center">
 
-| The Code |                   Article Title                    |                       The link                       |
-| :------: | :------------------------------------------------: | :--------------------------------------------------: |
-| Artic01  |               All Articles on GitHub               | [Link](https://sarahhudaib.github.io/reading-notes/) |
-| Artic02  |              All Articles on Hashnode              |   [Link](https://sarahthedeveloper.hashnode.dev/)    |
-| Artic03  | Why Virtualenv is Important for Django Development |      [Link](./Published_Articles/virtualenv.md)      | 
+| The Code | Article Title | The link |
+| :------: | :------------:| :------: |
+| Artic01  | All Articles on GitHub | [Link](https://sarahhudaib.github.io/reading-notes/) |
+| Artic02  | All Articles on Hashnode |[Link](https://sarahthedeveloper.hashnode.dev/)|
+| Artic03  | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
 
 </div>
 
