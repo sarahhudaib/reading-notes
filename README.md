@@ -40,21 +40,21 @@ Table of Contents for the Published Articles:
 | Artic01  |               All Articles on GitHub               | [Link](https://sarahhudaib.github.io/reading-notes/) |
 | Artic02  |              All Articles on Hashnode              |   [Link](https://sarahthedeveloper.hashnode.dev/)    |
 | Artic03  | Why Virtualenv is Important for Django Development |      [Link](./Published_Articles/virtualenv.md)      | -->
-
+<head>
 <style>
-  table {
-    margin: 0 auto;
-    border: 1px solid;
-  }
-    td {
-    border: 1px solid blue !important;
-    text-align: center;
-  }
-    th {
-        border: 1px solid blue !important;
-        color: orange;
-        text-align: center;
-  }
+table {
+  margin: 0 auto;
+  border: 1px solid !important;
+}
+td {
+  border: 1px solid blue !important;
+  text-align: center;
+}
+th {
+  border: 1px solid blue !important;
+  color: orange;
+  text-align: center;
+}
  
 </style>
 
@@ -80,3 +80,4 @@ Table of Contents for the Published Articles:
     <td><a href="./Published_Articles/virtualenv.md">Link</a></td>
   </tr>
 </table>
+</head>
