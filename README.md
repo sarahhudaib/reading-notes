@@ -25,6 +25,7 @@ I'm always open to feedback and suggestions, so feel free to leave a comment or 
 Thanks for stopping by, and I hope you enjoy reading my articles!
 </p>
 
+---
 
 <h3 align="center" style="font-weight: bold;">
 Table of Contents for the Published Articles:
@@ -42,48 +43,3 @@ Table of Contents for the Published Articles:
 
 
 </div>
-
-
-<!-- <html>
-  <head>
-    <style>
-      table {
-        margin: 0 auto;
-        border: 1px solid !important;
-      }
-      td {
-        border: 1px solid blue !important;
-        text-align: center;
-      }
-      th {
-        border: 1px solid blue !important;
-        color: orange;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <th>The Code</th>
-        <th>Article Title</th>
-        <th>The Link</th>
-      </tr>
-      <tr>
-        <td>Artic01</td>
-        <td>All Articles on GitHub</td>
-        <td><a href="https://sarahhudaib.github.io/reading-notes/">Link</a></td>
-      </tr>
-      <tr>
-        <td>Artic02</td>
-        <td>All Articles on Hashnode</td>
-        <td><a href="https://sarahthedeveloper.hashnode.dev/">Link</a></td>
-      </tr>
-      <tr>
-        <td>Artic03</td>
-        <td>Why Virtualenv is Important for Django Development</td>
-        <td><a href="./Published_Articles/virtualenv.md">Link</a></td>
-      </tr>
-    </table>
-  </body>
-</html> -->
