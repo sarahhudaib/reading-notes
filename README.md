@@ -4,9 +4,6 @@
 2023 Reading List: Notes and Recommendations from me :D
 </h2>
 
-<br>
-
-
 <h3 align="center"> Introduction </h3>
 
 
@@ -33,14 +30,12 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 <br> 
 <br>
 
-
+<hr>
 
 <h3 align="center" style="font-weight: bold;">
 Table of Contents for the Published Articles:
 </h3>
 
-
-<!-- <div align="center"> -->
 
 
 | The Code | Article Title | The link |
@@ -52,5 +47,4 @@ Table of Contents for the Published Articles:
 
 
 
-<br>
-</div>
+
