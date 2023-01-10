@@ -1,6 +1,11 @@
+<div align="center">
+
 <h2 align="center" style="font-weight: bold;">
 2023 Reading List: Notes and Recommendations from me :D
 </h2>
+
+<br>
+
 
 <h3 align="center"> Introduction </h3>
 
@@ -25,14 +30,17 @@ I'm always open to feedback and suggestions, so feel free to leave a comment or 
 Thanks for stopping by, and I hope you enjoy reading my articles!
 </p>
 
----
+<br> 
+<br>
+
+
 
 <h3 align="center" style="font-weight: bold;">
 Table of Contents for the Published Articles:
 </h3>
 
 
-<div align="center">
+<!-- <div align="center"> -->
 
 
 | The Code | Article Title | The link |
@@ -42,4 +50,7 @@ Table of Contents for the Published Articles:
 | Artic03  | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
 
 
+
+
+<br>
 </div>
