@@ -1,4 +1,4 @@
-<div align="center">
+
 
 <h2 align="center" style="font-weight: bold;">
 2023 Reading List: Notes and Recommendations from me :D
@@ -28,21 +28,19 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 </p>
 
 <br> 
-<br>
-
 <hr>
 
-<h3 align="center" style="font-weight: bold;">
-Table of Contents for the Published Articles:
-</h3>
 
+<!-- <h3 align="center" style="font-weight: bold;"> -->
+## Table of Contents for the Published Articles:
+<!-- </h3> -->
 
 
 | The Code | Article Title | The link |
-|:----------:|:----------:|:----------:|
-| Artic01  | All Articles on GitHub | [Link](https://sarahhudaib.github.io/reading-notes/) |
-| Artic02  | All Articles on Hashnode |[Link](https://sarahthedeveloper.hashnode.dev/)|
-| Artic03  | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
+|:-:|:-:|:-:|
+| Artic01 | All Articles on GitHub | [Link](https://sarahhudaib.github.io/reading-notes/) |
+| Artic02 | All Articles on Hashnode |[Link](https://sarahthedeveloper.hashnode.dev/)|
+| Artic03 | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
 
 
 
