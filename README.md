@@ -1,4 +1,4 @@
-# 2023 Reading List: Notes and Recommendations from me :D
+## 2023 Reading List: Notes and Recommendations from me :D
 
 Hello everyone! My name is Sarah and I'm a backend developer. I've recently started writing articles on GitHub about my journey in backend development, with a focus on Python and the Django framework. 😄
 
