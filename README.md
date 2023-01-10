@@ -18,6 +18,7 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 | Artic01 | All Articles on GitHub | [Link](https://sarahhudaib.github.io/reading-notes/) |
 | Artic02 | All Articles on Hashnode |[Link](https://sarahthedeveloper.hashnode.dev/)|
 | Artic03 | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
+| Artic04 | Essential Tips for Working with Django | [Link](./Published_Articles/Essential_Tips_for_Working_with_Django.md)| 
 
 ---
 
