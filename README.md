@@ -20,7 +20,7 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 | Artic03 | All Articles on Medium | [Link](https://medium.com/@sarahhudaib744)| 
 | Artic04 | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
 | Artic05 | Essential Tips for Working with Django | [Link](./Published_Articles/Essential_Tips_for_Working_with_Django.md)| 
-
+| Artic06 | What are Context Processors | [Link](./Published_Articles/context_processors.md)| 
 ---
 
 
