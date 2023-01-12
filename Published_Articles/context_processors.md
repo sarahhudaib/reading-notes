@@ -81,7 +81,9 @@ For example, you can use the user object in the context processor and conditiona
 
 In addition, if you are working with a large project or have multiple context processors, you can organize them in different files and different folders for better organization.
 
+
 Another important thing to consider is the performance of your context processors. As context processors are called on every request, it's important to make sure that the code inside your context processors is optimized for performance. This may include caching or pre-fetching certain data to reduce the number of database queries.
+
 
 ## Sum it up:
 Finally, it is important to keep in mind that Django also provides a built-in context processor called `django.template.context_processors.request`, which adds the request object to the template context. This context processor is included by default and can be useful when you need access to the request object in your templates, so you can use the request object to retrieve information that is not available in your context processors
