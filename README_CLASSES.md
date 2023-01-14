@@ -4,8 +4,6 @@
 
 <p> Hello, I'm Sarah & I am a highly skilled software engineer with a bachelor's degree in computer science and experience in web development using modern frameworks and technologies such as Django, Flask, React, and Next.js. </p>
 
-
-
 ---
 
 ##### Code 102 - Intro to Software Development
