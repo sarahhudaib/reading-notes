@@ -18,10 +18,11 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 | Artic01 | All Articles on GitHub | [Link](https://sarahhudaib.github.io/reading-notes/) |
 | Artic02 | All Articles on Hashnode |[Link](https://sarahthedeveloper.hashnode.dev/)|
 | Artic03 | All Articles on Medium | [Link](https://medium.com/@sarahhudaib744)| 
-| Artic04 | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
-| Artic05 | Essential Tips for Working with Django | [Link](./Published_Articles/Essential_Tips_for_Working_with_Django.md)| 
-| Artic06 | What are Context Processors | [Link](./Published_Articles/context_processors.md)| 
-| Artic07 | Building Real-time Web Applications with Django | [Link](./Published_Articles/Django_Channels.md)| 
+| Artic04 | All Articles on Dev | [Link](https://dev.to/sarahhudaib)| 
+| Artic05 | Why Virtualenv is Important for Django Development | [Link](./Published_Articles/virtualenv.md)| 
+| Artic06 | Essential Tips for Working with Django | [Link](./Published_Articles/Essential_Tips_for_Working_with_Django.md)| 
+| Artic07 | What are Context Processors | [Link](./Published_Articles/context_processors.md)| 
+| Artic08 | Building Real-time Web Applications with Django | [Link](./Published_Articles/Django_Channels.md)| 
 
 ---
 
