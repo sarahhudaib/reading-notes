@@ -25,6 +25,7 @@ Thanks for stopping by, and I hope you enjoy reading my articles!
 | Artic08 | Building Real-time Web Applications with Django | [Link](./Published_Articles/Django_Channels.md)| 
 | Artic09 | The Rise of Low-Code Development | [Link](./Published_Articles/The%20Rise%20of%20Low_Code%20Development.md)| 
 | Artic10 | The Future of Web Development | [Link](./Published_Articles/The%20Rise%20of%20Low_Code%20Development.md)| 
+| Artic11 | SQL | [Link](./Published_Articles/postgresql_pgadmin.md)| 
 ---
 
 
