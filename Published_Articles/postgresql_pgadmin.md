@@ -14,6 +14,8 @@
 ##  Windows Installation - PostGreSQL and PgAdmin with Database Setup
 To get started with PostgreSQL and pgAdmin, you first need to install them. PostgreSQL can be installed on Windows, Linux, or macOS, and pgAdmin can be installed on any of these operating systems as well. Once installed, you can create a new database using pgAdmin, create tables and other database objects, and insert data into the database. You can also execute SQL queries using the pgAdmin Query Tool or the PostgreSQL command-line interface (CLI).
 
+
+----
 ## SQL Statements Fundamentals
 
 > Let's dive into some of the most commonly used SQL commands and their usage in PostgreSQL.
@@ -123,3 +125,21 @@ SELECT * FROM employees
 WHERE last_name LIKE 'Sm_th';
 ```
 ##### This command will retrieve all columns from the employees table where the last name is Smith, Smyth, or any other last name that matches the pattern.
+
+---
+
+## pgAdmin
+
+If you're looking for a user-friendly way to manage your `PostgreSQL` database, look no further than `PgAdmin`. As an open-source graphical user interface (GUI) tool, `PgAdmin` provides an easy-to-use interface for a variety of tasks: 
+
+such as creating and modifying tables, executing SQL queries, and managing user permissions. 
+
+Getting started with `PgAdmin` is easy; simply After installing it you can use the intuitive GUI to perform operations on your database, like creating and modifying database objects, running SQL scripts, and viewing query results. 
+
+> For more advanced users, `PgAdmin` provides features like server groups, which let you organize your database servers into logical groups to make managing large numbers of servers easier.
+
+
+And here is a video clarifying the GUI of pgAdmin:
+
+<video src="../video_assets/PostgreSQL_ File Browser.mp4" controls>
+</video>
