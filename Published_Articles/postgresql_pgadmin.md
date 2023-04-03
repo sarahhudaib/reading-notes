@@ -141,5 +141,5 @@ Getting started with `PgAdmin` is easy; simply After installing it you can use t
 
 And here is a video clarifying the GUI of pgAdmin:
 
-<video src="../video_assets/PostgreSQL_ File Browser.mp4" controls>
+<video src="../video_assets/PostgreSQL_ File Browser.mp4">
 </video>
