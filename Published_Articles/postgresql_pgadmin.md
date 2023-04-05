@@ -201,7 +201,9 @@ SELECT ROUND(salary, 2) FROM employees;
 ##### This command will round the salary of all employees in the employees table to two decimal places.
 
 ### **GROUP BY**
-The `GROUP BY` clause is used to group rows with similar values into summary rows. Here's an example:
+The `GROUP BY` clause is used to group rows with similar values into summary rows. 
+
+Here's an example:
 
 ```
 SELECT department, AVG(salary) FROM employees 
@@ -210,6 +212,29 @@ GROUP BY department;
 ```
 
 ##### This command will group employees by department and calculate the average salary for each department.
+
+When used with the `DATE()` function, it can group records based on the date component of a datetime column.
+
+
+*For example*, let's say you have a table called `orders` with columns `order_id`, `customer_id`, `order_date`, and `order_amount`. You want to find the total order amount for each day in the month of January 2022.
+
+You can use the `DATE()` function to extract the date component of the order_date column and then group the records by this date using the GROUP BY clause. Here's an example query:
+
+```
+SELECT DATE(order_date) as order_day, SUM(order_amount) as total_amount
+FROM orders
+
+WHERE order_date >= '2022-01-01' AND order_date < '2022-02-01'
+
+GROUP BY DATE(order_date)
+
+ORDER BY order_day;
+```
+
+##### In this query, the WHERE clause limits the records to those with an order_date in January 2022. The SELECT clause uses the DATE() function to extract the date component of order_date and aliases it as order_day. The SUM() function is used to calculate the total order amount for each order_day. Finally, the GROUP BY clause groups the records by order_day.
+
+>The result of this query will be a table with two columns: order_day and total_amount. Each row will show the total order amount for a specific day in January 2022. The ORDER BY clause sorts the result set in ascending order by order_day.
+
 
 ### **ORDER BY**
 The `ORDER BY` clause is used to sort the result set in ascending or descending order based on one or more columns. Here's an example:
@@ -225,6 +250,7 @@ GROUP BY department ORDER BY AVG(salary) DESC;
 ### **HAVING**
 The `HAVING` clause is used to filter the result set based on a condition that involves an aggregate function. Here's an example:
 
+"its like a WHERE statement but for the Aggregation Functions"
 ```
 SELECT department, AVG(salary) FROM employees 
 
@@ -233,3 +259,121 @@ GROUP BY department
 HAVING AVG(salary) > 50000;
 ```
 ##### This command will group employees by department, calculate the average salary for each department, and filter the result set to show only departments where the average salary is greater than 50,000.
+
+------------
+# SQL join type and operator.
+
+## **AS**
+The `AS` operator is used to alias a table or column with a different name. It's especially useful when you need to rename columns or tables in the output to make it more readable and meaningful. The syntax for using the AS operator is:
+
+```
+SELECT column_name AS alias_name FROM table_name;
+```
+
+For example, in the query we showed earlier:
+
+```
+SELECT e.first_name, e.last_name, d.department_name AS dept_name
+FROM employees e
+
+INNER JOIN departments d ON e.department_id = d.department_id;
+```
+
+##### We are aliasing the departments.department_name column as dept_name using the AS operator. This makes the output more readable and meaningful.
+
+## INNER JOIN
+The `INNER JOIN` operator returns only the rows that have matching values in both tables. It's used to combine the rows from two or more tables based on a common column. The syntax for using `INNER JOIN` is:
+
+```
+SELECT column_name(s)
+FROM table1
+
+INNER JOIN table2
+
+ON table1.column_name = table2.column_name;
+```
+
+For example:
+
+```
+SELECT e.first_name, e.last_name, d.department_name
+FROM employees e
+
+INNER JOIN departments d ON e.department_id = d.department_id;
+```
+
+##### This query is using INNER JOIN to combine the employees table with the departments table based on the department_id column. The result set will include only the rows where there is a match in both tables.
+
+## OUTER JOIN
+The `OUTER JOIN` operator returns all the rows from one table and the matching rows from the other table. If there is no match in the other table, the result will include NULL values. 
+
+There are two types of outer joins: `LEFT OUTER JOIN` and `RIGHT OUTER JOIN`.
+
+### `LEFT OUTER JOIN` 
+returns all the rows from the left table and the matching rows from the right table. If there is no match in the right table, the result will include NULL values.
+
+```
+SELECT column_name(s)
+FROM table1
+LEFT OUTER JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+### `RIGHT OUTER JOIN` 
+
+returns all the rows from the right table and the matching rows from the left table. If there is no match in the left table, the result will include NULL values.
+
+```
+SELECT column_name(s)
+FROM table1
+RIGHT OUTER JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+For example:
+
+```
+SELECT e.first_name, e.last_name, d.department_name
+FROM employees e
+
+LEFT OUTER JOIN departments d ON e.department_id = d.department_id;
+```
+
+In this query, the `LEFT OUTER JOIN` operator is used to join the employees table with the departments table based on the department_id column. The result set will include all the rows from the employees table and the matching rows from the departments table. If there is no match in the departments table, the department_name column will contain a NULL value.
+
+### **FULL JOIN**
+The `FULL JOIN` operator is used to combine the results of a LEFT JOIN and a RIGHT JOIN. It returns all the rows from both tables and matches the rows that have matching values in both tables. If there are no matching rows in one of the tables, the result set will contain NULL values for the columns of that table.
+
+The syntax for a `FULL JOIN` is as follows:
+
+```
+SELECT column_names
+FROM table1
+FULL JOIN table2
+ON table1.column_name = table2.column_name;
+```
+
+Here's an example of a FULL JOIN:
+
+Suppose we have two tables, `"Customers"` and `"Orders"`. The `"Customers"` table has columns `"CustomerID"` and `"CustomerName"`, while the `"Orders"` table has columns `"OrderID"`, `"CustomerID"`, and `"OrderDate"`.
+
+To get a list of all customers and their orders, we can use a `FULL JOIN` as follows:
+
+```
+SELECT Customers.CustomerName, Orders.OrderID, Orders.OrderDate
+FROM Customers
+
+FULL JOIN Orders
+
+ON Customers.CustomerID = Orders.CustomerID
+
+ORDER BY Customers.CustomerName;
+```
+
+In this example, we join the two tables using the `"CustomerID"` column. The result set will include all customers, including those who have not placed any orders, and all orders, including those that have not been placed by any customers. 
+
+If there is no matching customer for an order or no matching order for a customer, the corresponding columns in the result set will contain `NULL` values.
+
+> Note that the `ORDER BY` clause is used to sort the result set by the `"CustomerName"` column. This clause can be used with any type of `JOIN` to sort the results according to a specific column.
+
+------------------------
