@@ -141,5 +141,95 @@ Getting started with `PgAdmin` is easy; simply After installing it you can use t
 
 And here is a video clarifying the GUI of pgAdmin:
 
-<video src="../video_assets/PostgreSQL_ File Browser.mp4" controls>
+<video src="../video_assets/PostgreSQL_ File Browser.mp4">
 </video>
+-----------------
+
+## Some Commonly used Aggregation Functions and Clauses in SQL, with examples in PostgreSQL.
+
+### **AVG**
+The `AVG` function is used to calculate the average value of a numerical column. Here's an example:
+
+```
+SELECT AVG(salary) FROM employees;
+```
+
+##### This command will calculate the average salary of all employees in the employees table.
+
+### **COUNT**
+The `COUNT` function is used to count the number of rows that match a specified condition. Here's an example:
+
+```
+SELECT COUNT(*) FROM employees WHERE department = 'Sales';
+```
+##### This command will count the number of employees in the Sales department.
+
+### **MAX**
+The `MAX` function is used to find the maximum value in a numerical column. Here's an example:
+
+```
+SELECT MAX(salary) FROM employees;
+```
+
+##### This command will find the highest salary among all employees in the employees table.
+
+### **MIN**
+The `MIN` function is used to find the minimum value in a numerical column. Here's an example:
+
+```
+SELECT MIN(salary) FROM employees;
+```
+
+##### This command will find the lowest salary among all employees in the employees table.
+
+### **SUM**
+The `SUM` function is used to calculate the total sum of a numerical column. Here's an example:
+
+```
+SELECT SUM(sales_amount) FROM sales;
+```
+
+##### This command will calculate the total sales amount from the sales table.
+
+### **ROUND**
+The `ROUND` function is used to round a numerical value to a specified number of decimal places. Here's an example:
+
+```
+SELECT ROUND(salary, 2) FROM employees;
+```
+
+##### This command will round the salary of all employees in the employees table to two decimal places.
+
+### **GROUP BY**
+The `GROUP BY` clause is used to group rows with similar values into summary rows. Here's an example:
+
+```
+SELECT department, AVG(salary) FROM employees 
+
+GROUP BY department;
+```
+
+##### This command will group employees by department and calculate the average salary for each department.
+
+### **ORDER BY**
+The `ORDER BY` clause is used to sort the result set in ascending or descending order based on one or more columns. Here's an example:
+
+```
+SELECT department, AVG(salary) FROM employees 
+
+GROUP BY department ORDER BY AVG(salary) DESC;
+```
+
+##### This command will group employees by department, calculate the average salary for each department, and sort the result set in descending order by average salary.
+
+### **HAVING**
+The `HAVING` clause is used to filter the result set based on a condition that involves an aggregate function. Here's an example:
+
+```
+SELECT department, AVG(salary) FROM employees 
+
+GROUP BY department 
+
+HAVING AVG(salary) > 50000;
+```
+##### This command will group employees by department, calculate the average salary for each department, and filter the result set to show only departments where the average salary is greater than 50,000.
