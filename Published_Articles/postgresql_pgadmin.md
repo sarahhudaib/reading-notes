@@ -377,3 +377,102 @@ If there is no matching customer for an order or no matching order for a custome
 > Note that the `ORDER BY` clause is used to sort the result set by the `"CustomerName"` column. This clause can be used with any type of `JOIN` to sort the results according to a specific column.
 
 ------------------------
+
+## Advanced SQL Commands:
+
+### TimeStamps and Extract:
+`TimeStamps` are a way to represent time and date values in SQL. The Extract function is used to extract specific parts of a timestamp, such as `year`, `month`, `day`, `hour`, `minute`, and `second`.
+
+Here's an example query that uses the Extract function to get the month and year from a timestamp column:
+
+```
+SELECT EXTRACT(MONTH FROM timestamp_column) AS month,
+       EXTRACT(YEAR FROM timestamp_column) AS year
+FROM table_name;
+```
+
+### Math Functions:
+SQL provides several built-in math functions, such as `ABS`, `ROUND`, `CEIL`, `FLOOR`, and `TRUNC`. These functions can be used to perform arithmetic operations and round numbers.
+
+Here's an example query that uses the ROUND function to round a number to two decimal places:
+
+```
+SELECT ROUND(number_column, 2) AS rounded_number
+FROM table_name;
+```
+
+### String Functions:
+SQL also provides several built-in string functions, such as CONCAT, LENGTH, SUBSTR, UPPER, and LOWER. These functions can be used to manipulate string values.
+
+Here's an example query that uses the CONCAT function to concatenate two columns:
+
+```
+SELECT CONCAT(column1, ' ', column2) AS full_name
+FROM table_name;
+```
+
+### Sub-Query:
+A `sub-query` is a query that is nested inside another query. It is used to retrieve data that will be used as input for the main query. Sub-queries can be used in the `SELECT`, `WHERE`, and `HAVING` clauses.
+
+Here's an example query that uses a sub-query to get the average of a column:
+
+```
+SELECT AVG(column_name)
+FROM (SELECT column_name FROM table_name WHERE condition) subquery_alias;
+```
+
+### Self-Join:
+A `self-join` is a join operation where a table is joined with itself. It is used to relate rows within the same table.
+
+Here's an example query that uses a self-join to find all pairs of employees who have the same manager:
+
+```
+SELECT a.employee_name, b.employee_name
+FROM employees a
+JOIN employees b
+ON a.manager_id = b.manager_id
+WHERE a.employee_name <> b.employee_name;
+```
+
+### To-Char:
+The `To-Char` function is used to convert a value to a character string with a specified format. It is commonly used to format date and time values.
+
+Here's an example query that uses the To-Char function to convert a date column to a specific format:
+
+```
+SELECT TO_CHAR(date_column, 'MM/DD/YYYY') AS formatted_date
+FROM table_name;
+```
+
+## Tips & Tricks:
+
+### TimeStamps and Extract:
+- Timestamps can be stored in different formats, such as ISO 8601 or Unix time, and SQL has built-in functions to handle these formats.
+- The `Extract` function can be used with different parts of a timestamp, such as microseconds, time zones, and time intervals.
+- The `EXTRACT` function can also be used with INTERVAL values, which represent a duration of time.
+
+### Math Functions:
+- The `ROUND` function can be used with negative numbers to round to the left of the decimal point, such as rounding to the nearest thousand.
+- The `CEIL` function rounds a number up to the nearest integer, while the FLOOR function rounds a number down to the nearest integer.
+- The `TRUNC` function truncates a number to a specified number of decimal places.
+String Functions:
+- The `CONCAT` function can be used to concatenate more than two columns or strings, by using multiple arguments separated by commas.
+- The `SUBSTR` function can be used to extract a substring from a string, by specifying the starting position and the length.
+- The UPPER and LOWER functions can be used to convert a string to uppercase or lowercase, respectively.
+
+### Sub-Query:
+- Sub-queries can be nested inside other sub-queries, allowing for complex queries to be constructed.
+- Sub-queries can also be used to perform aggregate functions, such as AVG, MAX, and MIN.
+- Sub-queries can be used in the WHERE clause to filter rows based on a sub-set of data.
+
+### Self-Join:
+- Self-joins can be used to represent hierarchical or recursive relationships, such as a manager-employee relationship or a parent-child relationship.
+- Self-joins can be used to find duplicates or matching records within the same table.
+- Self-joins can be combined with other SQL commands, such as `GROUP BY` and `HAVING`, to further refine the query results.
+
+### To-Char:
+- The TO_CHAR function can be used with a wide range of format codes, such as month `names`, `day names`, and `time zones`.
+- The TO_CHAR function can be combined with other SQL commands, such as `WHERE` and `ORDER` `BY`, to filter and sort data based on formatted date values.
+- The TO_CHAR function can also be used with numeric and boolean values, allowing for flexible formatting options.
+
+----
