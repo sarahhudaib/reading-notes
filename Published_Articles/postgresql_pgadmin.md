@@ -476,3 +476,349 @@ String Functions:
 - The TO_CHAR function can also be used with numeric and boolean values, allowing for flexible formatting options.
 
 ----
+## Creating Databases Using SQL.
+
+### `Data Types:`
+SQL provides a variety of data types that can be used to define the structure of a database. The most common data types include:
+- Numeric (e.g. INT, FLOAT)
+- Character (e.g. CHAR, VARCHAR)
+- Date/time (e.g. DATE, TIME, TIMESTAMP)
+- Boolean (e.g. BOOLEAN)
+
+Each data type has specific properties and usage scenarios, and it's important to choose the appropriate data type for each column in your database.
+
+>In addition to the common data types mentioned earlier, there are several other data types that can be used in SQL databases. Here are a few examples:
+
+- UUID: Universally Unique Identifier (UUID) is a data type that generates unique identifiers for rows in a table. This type is commonly used in distributed systems to ensure unique identification of records across multiple databases.
+
+- JSON: JavaScript Object Notation (JSON) is a data type that stores data in a structured format similar to a JavaScript object. This type is commonly used for storing and exchanging data between web applications and services.
+
+- Network Address: Some databases support data types for network addresses, such as IPv4 or IPv6 addresses. These types can be used to store and manipulate network-related data.
+
+- Geospatial: Some databases support data types for geospatial data, such as points, lines, and polygons. These types can be used to store and query location-based data.
+
+- Array: Some databases support data types for arrays, which can store a collection of values of the same data type. This type can be used to store and manipulate data in a more flexible and structured manner.
+
+
+### Explanation for Primary and Foreign Keys:
+
+- ### `Primary Key`:
+
+A primary key is a column or a set of columns in a table that uniquely identifies each row in the table. This means that no two rows can have the same values in their primary key columns. 
+
+The primary key is used as a reference point for other tables that have a foreign key relationship with the primary key table. A primary key is essential for maintaining data integrity, as it ensures that each row is uniquely identified and can be referenced by other tables.
+
+- ### `Foreign Key`:
+
+A foreign key is a column or a set of columns in a table that refers to the primary key of another table. This creates a relationship between two tables and allows data to be linked across multiple tables. 
+
+For example, if you have a "`Customers`" table and an "`Orders`" table, the "`Orders`" table could have a foreign key column that refers to the primary key of the "`Customers`" table. This would allow you to link each order to a specific customer, ensuring that data is consistent and accurate.
+
+When a foreign key is defined, it enforces referential integrity, which means that the values in the foreign key column must match the values in the primary key column of the referenced table. This ensures that data is always consistent and valid, as it prevents the creation of orphaned records (i.e. records with no corresponding reference in the primary key table).
+
+
+## `Constraints` 
+are a crucial aspect of database design, as they define the rules and limits for the data that can be stored in a table. Here are some common constraints found in `SQL`:
+
+- `NOT NULL`: This constraint ensures that a column cannot contain null values. It is used to enforce mandatory data entry for a column.
+
+- `UNIQUE`: This constraint ensures that a column contains only unique values. It is used to prevent duplicate data from being entered into a column.
+
+- `PRIMARY KEY (PK)`: This constraint is used to define a column or a set of columns as the primary key for a table. It ensures that each row in the table has a unique identifier, and can be referenced by other tables using a foreign key constraint.
+
+- `FOREIGN KEY (FK)`: This constraint is used to define a column or a set of columns as a foreign key for a table. It establishes a relationship between two tables by referencing the primary key of another table.
+
+- `CHECK`: This constraint enforces a condition that must be true for a column value. It is used to restrict the range of data that can be entered into a column.
+
+- `DEFAULT`: This constraint assigns a default value to a column if no value is specified. It is used to ensure that a column always has a value, even if one is not specified during data entry.
+
+- `EXCLUSION`: This constraint is used to define exclusion constraints between rows in a table. It ensures that no two rows in a table have conflicting data values for specific columns.
+
+- `REFERENCES`: This constraint is used to define a foreign key constraint on a table. It specifies the referenced table and the columns in that table that are being referenced by the foreign key constraint.
+
+By using constraints, you can ensure that your data is consistent, accurate, and valid. Constraints help to enforce data integrity and prevent errors, while also making it easier to manage and query your data.
+
+------
+
+## `CREATE`
+The `CREATE` statement in SQL is used to create a new database object, such as a table, index, view, or stored procedure. The basic syntax for creating a table in SQL is as follows:
+
+```
+CREATE TABLE table_name (
+    column1 datatype constraints,
+    column2 datatype constraints,
+    ...
+    columnN datatype constraints
+);
+```
+In this statement, `table_name` is the name of the table you want to create, `column1` through `columnN` are the names of the columns in the table, `datatype` is the data type for each column, and constraints are any additional constraints or rules that you want to apply to the column.
+
+### SERIAL:
+The `SERIAL` data type is a special data type in PostgreSQL that is used to generate unique sequence numbers for a column. 
+
+>When you define a column as `SERIAL`, `PostgreSQL` will automatically generate a unique sequence number for each new row that is inserted into the table. 
+
+The basic syntax for defining a column as SERIAL in SQL is as follows:
+
+```
+CREATE TABLE table_name (
+    column_name SERIAL PRIMARY KEY,
+    ...
+);
+```
+
+In this statement, column_name is the name of the column you want to define as SERIAL, and the PRIMARY KEY constraint ensures that the column is also a primary key for the table. When a new row is inserted into the table, PostgreSQL will automatically generate a unique sequence number for the column_name column.
+
+`SERIAL` is a convenient way to automatically generate unique identifiers for a table, such as primary keys. It eliminates the need to manually generate unique identifiers, and ensures that each row in the table has a unique identifier. 
+
+>However, it is important to note that SERIAL is specific to PostgreSQL, and other database systems may use different methods for generating unique identifiers.
+
+---
+
+## `INSERT` 
+statement in SQL is used to insert data into a table. Here's a breakdown of the syntax and some details about how it works:
+
+Basic Syntax:
+```
+INSERT INTO table_name (column1, column2, ..., columnN)
+VALUES (value1, value2, ..., valueN);
+```
+
+In this statement, `table_name` is the name of the table you want to insert data into, `column1` through `columnN` are the names of the columns you want to insert data into, and `value1` through `valueN` are the values you want to insert into the corresponding columns. The number of columns and values must match, or you will get an error.
+
+You can also insert multiple rows of data at once, by separating each set of values with a comma:
+
+```
+INSERT INTO table_name (column1, column2, ..., columnN)
+VALUES (value1, value2, ..., valueN),
+       (value1, value2, ..., valueN),
+       ...,
+       (value1, value2, ..., valueN);
+
+```
+If you want to insert data into all columns in the table, you can omit the column list:
+
+```
+INSERT INTO table_name
+VALUES (value1, value2, ..., valueN);
+```
+
+#### `Some additional details about the INSERT statement:`
+
+- If you are inserting a value into a column with a data type of CHAR, VARCHAR, or TEXT, you must enclose the value in single quotes.
+
+- If you are inserting a value into a column with a data type of DATE or TIMESTAMP, you must use the appropriate format for the date or timestamp.
+
+- If you are inserting data into a table with a foreign key constraint, you must ensure that the value you are inserting matches a value in the primary key column of the referenced table.
+
+- If you are inserting a large amount of data, it may be more efficient to use a bulk insert method, such as COPY or INSERT INTO SELECT.
+
+- If you are inserting data into a table with an auto-incrementing primary key column, you can omit the primary key column from the INSERT statement, and the database will automatically generate a new value for the column.
+
+Overall, the `INSERT` statement is a fundamental part of working with `SQL` databases, and understanding how to use it effectively is essential for working with data in a database.
+
+----
+
+## `UPDATE` 
+statement in SQL is used to modify existing data in a table. Here's a breakdown of the syntax and some details about how it works:
+
+Basic Syntax:
+```
+UPDATE table_name
+SET column1 = value1, column2 = value2, ..., columnN = valueN
+WHERE condition;
+```
+
+In this statement, `table_name` is the name of the table you want to update, `column1` through `columnN` are the names of the columns you want to modify, and `value1` through `valueN` are the new values you want to set for the corresponding columns. 
+
+The `WHERE` clause specifies which rows you want to update based on a condition that you define. If you omit the WHERE clause, all rows in the table will be updated.
+
+#### `Some additional details about the UPDATE statement`:
+
+- You can update multiple columns at once by separating each column and value pair with a comma.
+
+- You can use arithmetic expressions, functions, and subqueries in the SET clause to calculate new values for the columns you are updating.
+
+- The condition in the WHERE clause can be any valid Boolean expression that evaluates to true or false.
+
+- If you want to update all rows in a table, you can use the following syntax:
+
+    ```
+    UPDATE table_name
+    SET column1 = value1, column2 = value2, ..., columnN = valueN;
+    ```
+
+- If you want to update a single row in a table, you can use the LIMIT clause to limit the number of rows that are updated:
+    ```
+    UPDATE table_name
+    SET column1 = value1, column2 = value2, ..., columnN = valueN
+    WHERE condition
+    LIMIT 1;
+    ```
+- If you are updating a large amount of data, it may be more efficient to use a bulk update method, such as UPDATE FROM or MERGE.
+
+- If you are updating a table with a foreign key constraint, you must ensure that the new value you are setting matches a value in the primary key column of the referenced table.
+
+Overall, the `UPDATE` statement is a powerful tool for modifying data in a `SQL` database, and understanding how to use it effectively is essential for managing data in a database.
+
+----
+## `DELETE` 
+statement in SQL is used to remove data from a table. Here's a breakdown of the syntax and some details about how it works:
+
+Basic Syntax:
+```
+DELETE FROM table_name
+WHERE condition;
+```
+
+In this statement, `table_name` is the name of the table you want to delete data from, and the `WHERE` clause specifies which rows you want to delete based on a condition that you define. If you omit the WHERE clause, all rows in the table will be deleted.
+
+#### `Some additional details about the DELETE statement:`
+
+- Be very careful when using the DELETE statement, as it permanently removes data from the table. Always make a backup of your data before deleting anything.
+
+- You can use the `TRUNCATE TABLE` statement to delete all rows from a table without logging individual row deletions. This can be faster than using the DELETE statement, but it cannot be rolled back.
+
+- If you want to delete a single row from a table, you can use the `LIMIT` clause to limit the number of rows that are deleted:
+
+    ```
+    DELETE FROM table_name
+    WHERE condition
+    LIMIT 1;
+    ```
+- If you have a table with a foreign key constraint, you must delete any dependent rows in other tables first, or use the `ON DELETE CASCADE` option to automatically delete dependent rows when the parent row is deleted.
+
+- If you want to delete data from multiple tables at once, you can use the `DELETE FROM` statement with a JOIN clause to specify how the tables are related:
+
+    ```
+    DELETE t1, t2
+    FROM table1 t1
+    JOIN table2 t2 ON t1.id = t2.id
+    WHERE condition;
+    ```
+- If you are deleting a large amount of data, it may be more efficient to use a bulk delete method, such as `DELETE FROM` with a `subquery` or `TRUNCATE TABLE`.
+
+Overall, the DELETE statement is an important tool for managing data in a SQL database, but it should be used with caution to avoid accidentally deleting important data.
+
+---
+
+## `ALTER` 
+statement in `SQL` is used to modify the structure of a table, such as adding, modifying or dropping columns, changing the data type of columns, adding or dropping constraints, and more. Here's a breakdown of the syntax and some details about how it works:
+
+Basic Syntax:
+```
+ALTER TABLE table_name
+ACTION;
+```
+In this statement, `table_name` is the name of the table you want to modify, and `ACTION` is the specific modification you want to make to the table. Here are some common actions you can perform with ALTER:
+
+`ADD COLUMN:` adds a new column to the table. Here's an example:
+```
+ALTER TABLE table_name
+ADD COLUMN column_name data_type;
+```
+
+`MODIFY COLUMN`: changes the data type of an existing column. Here's an example:
+```
+ALTER TABLE table_name
+MODIFY COLUMN column_name new_data_type;
+```
+
+`DROP COLUMN`: removes a column from the table. Here's an example:
+```
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
+
+`ADD CONSTRAINT`: adds a constraint to the table, such as a primary key or foreign key constraint. Here's an example:
+```
+ALTER TABLE table_name
+ADD CONSTRAINT constraint_name PRIMARY KEY (column_name);
+```
+
+`DROP CONSTRAINT`: removes a constraint from the table. Here's an example:
+```
+ALTER TABLE table_name
+DROP CONSTRAINT constraint_name;
+```
+
+#### `Some additional details about the ALTER statement:`
+
+- Be very careful when using the `ALTER` statement, as it can have a significant impact on your database schema and the data stored in the table. Always make a backup of your data before making any changes.
+
+- Some modifications to the table may require rebuilding the table, which can be a time-consuming process for large tables with a lot of data.
+
+- If you are modifying a table with existing data, you may need to update the data in the table to conform to the new schema.
+
+- Some database management systems have specific rules and limitations for the ALTER statement, so be sure to consult your system's documentation for more information.
+
+Overall, the `ALTER` statement is an important tool for modifying the structure of a SQL table and ensuring that your database schema is up-to-date and optimized for your needs.
+
+----
+## `DROP` 
+statement is used to remove database objects such as tables, indexes, views, and more. Here's a breakdown of the syntax and some details about how it works:
+
+Basic Syntax:
+```
+DROP OBJECT_TYPE IF EXISTS object_name;
+```
+In this statement, `OBJECT_TYPE` is the type of object you want to drop, such as TABLE, INDEX, VIEW, etc. `IF EXISTS` is an optional clause that prevents an error from being thrown if the object does not exist. `OBJECT_NAME` is the name of the object you want to drop. Here are some examples of how to use the `DROP statement:`
+
+```
+DROP TABLE IF EXISTS table_name;
+```
+
+`Drop an index:`
+
+```
+DROP INDEX IF EXISTS index_name;
+```
+
+`Drop a view:`
+
+```
+DROP VIEW IF EXISTS view_name;
+```
+
+#### `Some additional details about the DROP statement:`
+
+- Be very careful when using the DROP statement, as it will permanently remove the object from your database. Always make a backup of your data before dropping any objects.
+
+- If the object being dropped has dependent objects, such as foreign key constraints, the DROP statement may fail. In this case, you will need to drop the dependent objects first.
+
+- Some database management systems have specific rules and limitations for the DROP statement, so be sure to consult your system's documentation for more information.
+
+Overall, the `DROP` statement is an important tool for managing your SQL database objects and keeping your schema organized and optimized.
+
+----
+
+## `Check Constraints`
+ in SQL are used to enforce specific conditions that must be met for values in a table column. The purpose of a check constraint is to ensure that data entered into a table meets certain criteria or rules.
+
+`Here's an example of how to create a check constraint on a table:`
+
+```
+CREATE TABLE employees (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  age INTEGER,
+  salary REAL,
+  department TEXT,
+  hire_date DATE,
+  CONSTRAINT age_check CHECK (age >= 18)
+);
+```
+
+In this example, a `CHECK` constraint is defined on the age column of the employees table, which ensures that the value of the age column is always greater than or equal to 18. If a value is inserted into the age column that violates this constraint, an error will be thrown.
+
+#### `Some key things to keep in mind about check constraints include:`
+
+- Check constraints can be defined at the column level or the table level.
+- Check constraints can reference other columns in the same table or external tables using subqueries.
+- Check constraints can also use Boolean expressions, logical operators, and comparison operators to define complex rules for data validation.
+- Check constraints can be added or removed using the ALTER TABLE statement.
+- When defining check constraints, it's important to ensure that they do not conflict with other constraints, such as primary and foreign keys, to avoid conflicts and errors.
+
+Overall, check constraints are an important tool for ensuring data quality and maintaining the integrity of your database schema. By defining rules that must be met for data to be inserted or updated in a table, you can help prevent data inconsistencies and errors.
+
+----
